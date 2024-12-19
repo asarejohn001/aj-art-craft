@@ -1,6 +1,29 @@
-div .heading{
-    margin-top: 10px;
+
+.navbar {
+    background-color: black;
+    padding: 1em;
 }
+
+.navbar li {
+    display: inline;
+    padding: 1em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: gray;
+    color: white;
+}
+
 
 h1 {
     text-align: center;
